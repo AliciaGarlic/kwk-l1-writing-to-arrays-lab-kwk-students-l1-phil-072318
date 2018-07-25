@@ -18,6 +18,6 @@ def add_colors
   puts RAINBOW_COLORS[1] = "light_red"
   puts RAINBOW_COLORS[2] = "light_yellow"
   puts RAINBOW_COLORS.push("green")
-  puts RAINBOW_COLORS<<-"blue"
+  puts RAINBOW_COLORS<<-("blue")
 end
 add_colors
