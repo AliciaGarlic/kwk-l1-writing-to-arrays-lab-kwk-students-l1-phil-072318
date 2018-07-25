@@ -20,3 +20,4 @@ def add_colors
   puts RAINBOW_COLORS.push("green")
   puts RAINBOW_COLORS<<("blue")
 end
+add_colors
